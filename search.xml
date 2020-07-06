@@ -4,7 +4,26 @@
   
     
     <entry>
-      <title>Hello World</title>
+      <title>JavaHello</title>
+      <link href="/posts/undefined.html"/>
+      <url>/posts/undefined.html</url>
+      
+        <content type="html"><![CDATA[<h1 id="HelloWorld"><a href="#HelloWorld" class="headerlink" title="HelloWorld"></a>HelloWorld</h1><ol><li><p>新建任意一个文件夹，存放我们要写的diamante</p></li><li><p>新建一个java文件</p><ul><li>文件后缀名为.java</li><li>Hello.java</li><li>【注意点】系统可能没有显示文件后缀名，我们需要手动打开</li></ul></li><li><p>编写代码</p><pre class="line-numbers language-java"><code class="language-java"><span class="token keyword">public</span> <span class="token keyword">class</span> <span class="token class-name">Hello</span><span class="token punctuation">{</span>    <span class="token keyword">public</span> <span class="token keyword">static</span> <span class="token keyword">void</span> <span class="token function">main</span><span class="token punctuation">(</span>String<span class="token punctuation">[</span><span class="token punctuation">]</span> args<span class="token punctuation">)</span> <span class="token punctuation">{</span>        System<span class="token punctuation">.</span>out<span class="token punctuation">.</span><span class="token function">print</span><span class="token punctuation">(</span><span class="token string">"Hello,Word!"</span><span class="token punctuation">)</span><span class="token punctuation">;</span>    <span class="token punctuation">}</span><span class="token punctuation">}</span> <span aria-hidden="true" class="line-numbers-rows"><span></span><span></span><span></span><span></span><span></span></span></code></pre></li><li><p>打开cmd 运行javac java 文件，会生成一个class文件</p></li><li><p>运行java Hello </p><p><img src="/images/loading.gif" data-original="../images/image-20200706151831755.png" alt="image-20200706151840341"></p></li></ol>]]></content>
+      
+      
+      
+        <tags>
+            
+            <tag> Java </tag>
+            
+        </tags>
+      
+    </entry>
+    
+    
+    
+    <entry>
+      <title>这是一个文章模板</title>
       <link href="/posts/3eeb.html"/>
       <url>/posts/3eeb.html</url>
       
@@ -20,7 +39,7 @@
       
         <tags>
             
-            <tag> hello-world </tag>
+            <tag> mu </tag>
             
         </tags>
       
