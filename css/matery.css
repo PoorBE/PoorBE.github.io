@@ -249,8 +249,8 @@ mark {
 
 /*主题颜色*/
 .bg-color {
-    background-image: linear-gradient(to right, #BF4643 0%, #6C9D8F 100%);
-    opacity: 0.6;
+    background-image: linear-gradient(to right, #f78ca0 0%, #f9748f 19%, #fd868c 60%, #fe9a8b 100%);
+    opacity: 0.8;
 }
 
 .text-color {
