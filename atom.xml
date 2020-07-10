@@ -5,9 +5,9 @@
   
   <link href="/atom.xml" rel="self"/>
   
-  <link href="http://yoursite.com/"/>
-  <updated>2020-07-06T07:49:41.445Z</updated>
-  <id>http://yoursite.com/</id>
+  <link href="http://better2020.club/"/>
+  <updated>2020-07-10T03:40:18.713Z</updated>
+  <id>http://better2020.club/</id>
   
   <author>
     <name>鄙人</name>
@@ -17,11 +17,65 @@
   <generator uri="https://hexo.io/">Hexo</generator>
   
   <entry>
+    <title>域名解析与绑定</title>
+    <link href="http://better2020.club/posts/better02.html"/>
+    <id>http://better2020.club/posts/better02.html</id>
+    <published>2020-07-10T03:07:49.000Z</published>
+    <updated>2020-07-10T03:40:18.713Z</updated>
+    
+    <summary type="html">
+    
+      
+      
+        
+        
+          &lt;h2 id=&quot;1-什么是域名&quot;&gt;&lt;a href=&quot;#1-什么是域名&quot; class=&quot;headerlink&quot;
+        
+      
+    
+    </summary>
+    
+    
+      <category term="本文利用本博客网站学习如何为网站绑定域名（腾讯云为例）" scheme="http://better2020.club/categories/%E6%9C%AC%E6%96%87%E5%88%A9%E7%94%A8%E6%9C%AC%E5%8D%9A%E5%AE%A2%E7%BD%91%E7%AB%99%E5%AD%A6%E4%B9%A0%E5%A6%82%E4%BD%95%E4%B8%BA%E7%BD%91%E7%AB%99%E7%BB%91%E5%AE%9A%E5%9F%9F%E5%90%8D%EF%BC%88%E8%85%BE%E8%AE%AF%E4%BA%91%E4%B8%BA%E4%BE%8B%EF%BC%89/"/>
+    
+    
+      <category term="hexo" scheme="http://better2020.club/tags/hexo/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>Github+PicGo搭建免费图床</title>
+    <link href="http://better2020.club/posts/better01.html"/>
+    <id>http://better2020.club/posts/better01.html</id>
+    <published>2020-07-10T01:51:57.000Z</published>
+    <updated>2020-07-10T03:11:57.502Z</updated>
+    
+    <summary type="html">
+    
+      
+      
+        
+        
+          &lt;h2 id=&quot;图床的搭建&quot;&gt;&lt;a href=&quot;#图床的搭建&quot; class=&quot;headerlink&quot;
+        
+      
+    
+    </summary>
+    
+    
+      <category term="博客搭建" scheme="http://better2020.club/categories/%E5%8D%9A%E5%AE%A2%E6%90%AD%E5%BB%BA/"/>
+    
+    
+      <category term="Hexo" scheme="http://better2020.club/tags/Hexo/"/>
+    
+  </entry>
+  
+  <entry>
     <title>JavaHello</title>
-    <link href="http://yoursite.com/posts/undefined.html"/>
-    <id>http://yoursite.com/posts/undefined.html</id>
+    <link href="http://better2020.club/posts/better00.html"/>
+    <id>http://better2020.club/posts/better00.html</id>
     <published>2020-07-06T07:47:05.000Z</published>
-    <updated>2020-07-06T07:49:41.445Z</updated>
+    <updated>2020-07-10T03:11:32.629Z</updated>
     
     <summary type="html">
     
@@ -36,8 +90,10 @@
     </summary>
     
     
+      <category term="Java学习第一步，Hello,World!" scheme="http://better2020.club/categories/Java%E5%AD%A6%E4%B9%A0%E7%AC%AC%E4%B8%80%E6%AD%A5%EF%BC%8CHello-World/"/>
     
-      <category term="Java" scheme="http://yoursite.com/tags/Java/"/>
+    
+      <category term="Java" scheme="http://better2020.club/tags/Java/"/>
     
   </entry>
   

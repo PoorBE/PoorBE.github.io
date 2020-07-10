@@ -4,12 +4,68 @@
   
     
     <entry>
+      <title>域名解析与绑定</title>
+      <link href="/posts/better02.html"/>
+      <url>/posts/better02.html</url>
+      
+        <content type="html"><![CDATA[<h2 id="1-什么是域名"><a href="#1-什么是域名" class="headerlink" title="1.什么是域名"></a>1.什么是域名</h2><blockquote><p>我们访问仿站利用ip地址即可访问，但是ip一般很难记忆，所以可以采用域名来代替ip地址标识站点地址。域名解析的作用主要是为了方便记忆，显得更有自己的特色个性。</p></blockquote><h2 id="2-购买域名"><a href="#2-购买域名" class="headerlink" title="2.购买域名"></a>2.购买域名</h2><p>​    域名的购买有很多途径，例如阿里云或者腾讯云的。可自行百度搜索购买即可。一般新用户第一个域名很便宜</p><p>​    <a href="https://buy.cloud.tencent.com/domain?domain=xyz&tlds=&from=dnspodEntrance" target="_blank" rel="noopener">点击进入腾讯云域名注册</a></p><p><img src="/images/loading.gif" data-original="https://cdn.jsdelivr.net/gh/PoorBE/images_b/img/Snipaste_2020-07-10_11-26-1.png" alt=""></p><p>​    <strong>选好域名后提交订单即可</strong></p><h2 id="3-域名解析"><a href="#3-域名解析" class="headerlink" title="3.域名解析"></a>3.域名解析</h2><p>​    域名购买成功后我们就可以进行域名解析与我们的博客地址绑上了</p><pre><code>1. 进入腾讯云的控制台进入[DNS解析](https://console.cloud.tencent.com/cns) 2. 右侧列表会显示我们刚才购买的域名![](https://cdn.jsdelivr.net/gh/PoorBE/images_b/img/Snipaste_2020-07-10_11-38-43.png) 3. </code></pre>]]></content>
+      
+      
+      <categories>
+          
+          <category> 本文利用本博客网站学习如何为网站绑定域名（腾讯云为例） </category>
+          
+      </categories>
+      
+      
+        <tags>
+            
+            <tag> hexo </tag>
+            
+        </tags>
+      
+    </entry>
+    
+    
+    
+    <entry>
+      <title>Github+PicGo搭建免费图床</title>
+      <link href="/posts/better01.html"/>
+      <url>/posts/better01.html</url>
+      
+        <content type="html"><![CDATA[<h2 id="图床的搭建"><a href="#图床的搭建" class="headerlink" title="图床的搭建"></a>图床的搭建</h2><blockquote><p>图床：图床一般是指储存图片的服务器，有国内和国外之分。国外的图床由于有空间距离等因素决定访问速度很慢影响图片显示速度。国内也分为单线空间、多线空间和cdn加速三种。</p></blockquote><h3 id="1-创建仓库及生成token"><a href="#1-创建仓库及生成token" class="headerlink" title="1.创建仓库及生成token"></a>1.创建仓库及生成token</h3><p>​        <strong>1. 新建一个github仓库，名称自定义即可</strong></p><p><img src="/images/loading.gif" data-original="https://cdn.jsdelivr.net/gh/PoorBE/images_b/img/Snipaste_2020-07-10_10-06-45.png" alt=""></p><ol start="2"><li><p>生成token，PicGo需要填入token</p><ul><li>第一步：点击自己头像进入settings设置</li><li>第二步：点击左侧菜单栏Developer settings</li><li>第三步：点击左侧Personal access tokens</li><li>第四步：点击右上角Generate new token</li><li>第五步：为token起名，勾选权限，点击最下方绿色按钮即可</li><li>第六步：复制保存生成的token（备用）</li></ul><p><img src="/images/loading.gif" data-original="https://cdn.jsdelivr.net/gh/PoorBE/images_b/img/Snipaste_2020-07-10_10-12-51.png" alt=""></p></li></ol><p><img src="/images/loading.gif" data-original="https://cdn.jsdelivr.net/gh/PoorBE/images_b/img/Snipaste_2020-07-10_10-17-24.png" alt=""></p><p><img src="/images/loading.gif" data-original="https://cdn.jsdelivr.net/gh/PoorBE/images_b/img/Snipaste_2020-07-10_10-21-42.png" alt=""></p><p><img src="/images/loading.gif" data-original="https://cdn.jsdelivr.net/gh/PoorBE/images_b/img/Snipaste_2020-07-10_10-24-41.png" alt=""></p><h3 id="2-配置PicGo"><a href="#2-配置PicGo" class="headerlink" title="2.配置PicGo"></a>2.配置PicGo</h3><ul><li><p>首先下载安装PicGo，图片上传工具PicGo下载地址：<a href="https://github.com/Molunerfinn/PicGo/releases" target="_blank" rel="noopener">https://github.com/Molunerfinn/PicGo/releases</a></p></li><li><p>配置GitHub图床，点击软件左侧图床设置选择GitHub图床</p><p><img src="/images/loading.gif" data-original="https://cdn.jsdelivr.net/gh/PoorBE/images_b/img/Snipaste_2020-07-10_10-36-30.png" alt=""></p><ul><li>设定仓库名：此处填写格式username/repo，username为你的github名字，repo为你刚才刚创建的图床仓库名</li><li>设定分支名：master，采用默认分支即可</li><li>设定Token：此处填写上一步得到的Token，添加到输入框即可。</li><li>指定存储路径：自定义：例如img/ 。上传的图片会存入此路径</li><li>设定自定义域名：格式：<code>https://cdn.jsdelivr.net/gh/username/repo</code>，<code>username</code>为GitHub用户名，<code>repo</code>为新建的仓库，用于存储图片</li></ul></li></ul><p>配置完成后点击确认即可</p><ul><li><p>上传图片 ，此处有好几种格式，可根据自己需要选择</p><p><img src="/images/loading.gif" data-original="https://cdn.jsdelivr.net/gh/PoorBE/images_b/img/Snipaste_2020-07-10_10-42-23.png" alt=""></p></li></ul><ul><li><p>上传成功后可到相册查看上传的图片<img src="/images/loading.gif" data-original="https://cdn.jsdelivr.net/gh/PoorBE/images_b/img/Snipaste_2020-07-10_10-46-45.png" alt=""></p></li><li><p>注意：上传图片时有小几率失败，会出现短暂的上传条为红色的情况，可多试几次，如若不行则检查图床设置是否正确</p></li></ul>]]></content>
+      
+      
+      <categories>
+          
+          <category> 博客搭建 </category>
+          
+      </categories>
+      
+      
+        <tags>
+            
+            <tag> Hexo </tag>
+            
+        </tags>
+      
+    </entry>
+    
+    
+    
+    <entry>
       <title>JavaHello</title>
-      <link href="/posts/undefined.html"/>
-      <url>/posts/undefined.html</url>
+      <link href="/posts/better00.html"/>
+      <url>/posts/better00.html</url>
       
-        <content type="html"><![CDATA[<h1 id="HelloWorld"><a href="#HelloWorld" class="headerlink" title="HelloWorld"></a>HelloWorld</h1><ol><li><p>新建任意一个文件夹，存放我们要写的diamante</p></li><li><p>新建一个java文件</p><ul><li>文件后缀名为.java</li><li>Hello.java</li><li>【注意点】系统可能没有显示文件后缀名，我们需要手动打开</li></ul></li><li><p>编写代码</p><pre class="line-numbers language-java"><code class="language-java"><span class="token keyword">public</span> <span class="token keyword">class</span> <span class="token class-name">Hello</span><span class="token punctuation">{</span>    <span class="token keyword">public</span> <span class="token keyword">static</span> <span class="token keyword">void</span> <span class="token function">main</span><span class="token punctuation">(</span>String<span class="token punctuation">[</span><span class="token punctuation">]</span> args<span class="token punctuation">)</span> <span class="token punctuation">{</span>        System<span class="token punctuation">.</span>out<span class="token punctuation">.</span><span class="token function">print</span><span class="token punctuation">(</span><span class="token string">"Hello,Word!"</span><span class="token punctuation">)</span><span class="token punctuation">;</span>    <span class="token punctuation">}</span><span class="token punctuation">}</span> <span aria-hidden="true" class="line-numbers-rows"><span></span><span></span><span></span><span></span><span></span></span></code></pre></li><li><p>打开cmd 运行javac java 文件，会生成一个class文件</p></li><li><p>运行java Hello </p><p><img src="/images/loading.gif" data-original="../images/image-20200706151831755.png" alt="image-20200706151840341"></p></li></ol>]]></content>
+        <content type="html"><![CDATA[<h1 id="HelloWorld"><a href="#HelloWorld" class="headerlink" title="HelloWorld"></a>HelloWorld</h1><ol><li><p>新建任意一个文件夹，存放我们要写的diamante</p></li><li><p>新建一个java文件</p><ul><li>文件后缀名为.java</li><li>Hello.java</li><li>【注意点】系统可能没有显示文件后缀名，我们需要手动打开</li></ul></li><li><p>编写代码</p><pre class="line-numbers language-java"><code class="language-java"><span class="token keyword">public</span> <span class="token keyword">class</span> <span class="token class-name">Hello</span><span class="token punctuation">{</span>    <span class="token keyword">public</span> <span class="token keyword">static</span> <span class="token keyword">void</span> <span class="token function">main</span><span class="token punctuation">(</span>String<span class="token punctuation">[</span><span class="token punctuation">]</span> args<span class="token punctuation">)</span> <span class="token punctuation">{</span>        System<span class="token punctuation">.</span>out<span class="token punctuation">.</span><span class="token function">print</span><span class="token punctuation">(</span><span class="token string">"Hello,Word!"</span><span class="token punctuation">)</span><span class="token punctuation">;</span>    <span class="token punctuation">}</span><span class="token punctuation">}</span> <span aria-hidden="true" class="line-numbers-rows"><span></span><span></span><span></span><span></span><span></span></span></code></pre></li><li><p>打开cmd 运行javac java 文件，会生成一个class文件</p></li><li><p>运行java Hello </p><p><img src="/images/loading.gif" data-original="https://cdn.jsdelivr.net/gh/PoorBE/images_b/img/image-20200706151831755.png" alt=""></p></li></ol>]]></content>
       
+      
+      <categories>
+          
+          <category> Java学习第一步，Hello,World! </category>
+          
+      </categories>
       
       
         <tags>
