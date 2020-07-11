@@ -6,7 +6,7 @@
   <link href="/atom.xml" rel="self"/>
   
   <link href="http://better2020.club/"/>
-  <updated>2020-07-10T07:07:37.850Z</updated>
+  <updated>2020-07-11T07:51:24.659Z</updated>
   <id>http://better2020.club/</id>
   
   <author>
@@ -15,6 +15,23 @@
   </author>
   
   <generator uri="https://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>Hexo+Github搭建自己的博客</title>
+    <link href="http://better2020.club/posts/undefined.html"/>
+    <id>http://better2020.club/posts/undefined.html</id>
+    <published>2020-07-11T07:43:41.000Z</published>
+    <updated>2020-07-11T07:51:24.659Z</updated>
+    
+    <summary type="html">
+    
+    </summary>
+    
+    
+    
+      <category term="Hexo" scheme="http://better2020.club/tags/Hexo/"/>
+    
+  </entry>
   
   <entry>
     <title>域名解析与绑定</title>
