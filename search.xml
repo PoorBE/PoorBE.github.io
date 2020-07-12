@@ -5,11 +5,17 @@
     
     <entry>
       <title>Hexo+Github搭建自己的博客</title>
-      <link href="/posts/undefined.html"/>
-      <url>/posts/undefined.html</url>
+      <link href="/posts/better4.html"/>
+      <url>/posts/better4.html</url>
       
         <content type="html"><![CDATA[]]></content>
       
+      
+      <categories>
+          
+          <category> 博客搭建 </category>
+          
+      </categories>
       
       
         <tags>
