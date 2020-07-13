@@ -4,31 +4,6 @@
   
     
     <entry>
-      <title>Hexo+Github搭建自己的博客</title>
-      <link href="/posts/better4.html"/>
-      <url>/posts/better4.html</url>
-      
-        <content type="html"><![CDATA[]]></content>
-      
-      
-      <categories>
-          
-          <category> 博客搭建 </category>
-          
-      </categories>
-      
-      
-        <tags>
-            
-            <tag> Hexo </tag>
-            
-        </tags>
-      
-    </entry>
-    
-    
-    
-    <entry>
       <title>域名解析与绑定</title>
       <link href="/posts/better02.html"/>
       <url>/posts/better02.html</url>
