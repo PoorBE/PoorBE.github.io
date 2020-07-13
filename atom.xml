@@ -5,9 +5,9 @@
   
   <link href="/atom.xml" rel="self"/>
   
-  <link href="http://better2020.club/"/>
+  <link href="https://better2020.club/"/>
   <updated>2020-07-10T07:07:37.850Z</updated>
-  <id>http://better2020.club/</id>
+  <id>https://better2020.club/</id>
   
   <author>
     <name>鄙人</name>
@@ -18,8 +18,8 @@
   
   <entry>
     <title>域名解析与绑定</title>
-    <link href="http://better2020.club/posts/better02.html"/>
-    <id>http://better2020.club/posts/better02.html</id>
+    <link href="https://better2020.club/posts/better02.html"/>
+    <id>https://better2020.club/posts/better02.html</id>
     <published>2020-07-10T03:07:49.000Z</published>
     <updated>2020-07-10T07:07:37.850Z</updated>
     
@@ -36,17 +36,17 @@
     </summary>
     
     
-      <category term="博客搭建" scheme="http://better2020.club/categories/%E5%8D%9A%E5%AE%A2%E6%90%AD%E5%BB%BA/"/>
+      <category term="博客搭建" scheme="https://better2020.club/categories/%E5%8D%9A%E5%AE%A2%E6%90%AD%E5%BB%BA/"/>
     
     
-      <category term="Hexo" scheme="http://better2020.club/tags/Hexo/"/>
+      <category term="Hexo" scheme="https://better2020.club/tags/Hexo/"/>
     
   </entry>
   
   <entry>
     <title>Github+PicGo搭建免费图床</title>
-    <link href="http://better2020.club/posts/better01.html"/>
-    <id>http://better2020.club/posts/better01.html</id>
+    <link href="https://better2020.club/posts/better01.html"/>
+    <id>https://better2020.club/posts/better01.html</id>
     <published>2020-07-10T01:51:57.000Z</published>
     <updated>2020-07-10T03:11:57.502Z</updated>
     
@@ -63,17 +63,17 @@
     </summary>
     
     
-      <category term="博客搭建" scheme="http://better2020.club/categories/%E5%8D%9A%E5%AE%A2%E6%90%AD%E5%BB%BA/"/>
+      <category term="博客搭建" scheme="https://better2020.club/categories/%E5%8D%9A%E5%AE%A2%E6%90%AD%E5%BB%BA/"/>
     
     
-      <category term="Hexo" scheme="http://better2020.club/tags/Hexo/"/>
+      <category term="Hexo" scheme="https://better2020.club/tags/Hexo/"/>
     
   </entry>
   
   <entry>
     <title>JavaHello</title>
-    <link href="http://better2020.club/posts/better00.html"/>
-    <id>http://better2020.club/posts/better00.html</id>
+    <link href="https://better2020.club/posts/better00.html"/>
+    <id>https://better2020.club/posts/better00.html</id>
     <published>2020-07-06T07:47:05.000Z</published>
     <updated>2020-07-11T02:44:26.169Z</updated>
     
@@ -90,10 +90,10 @@
     </summary>
     
     
-      <category term="Java学习" scheme="http://better2020.club/categories/Java%E5%AD%A6%E4%B9%A0/"/>
+      <category term="Java学习" scheme="https://better2020.club/categories/Java%E5%AD%A6%E4%B9%A0/"/>
     
     
-      <category term="Java" scheme="http://better2020.club/tags/Java/"/>
+      <category term="Java" scheme="https://better2020.club/tags/Java/"/>
     
   </entry>
   
